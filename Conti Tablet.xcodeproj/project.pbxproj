@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D16775CB1734203A0084DDA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16775CA1734203A0084DDA4 /* UIKit.framework */; };
+		D16775CD1734203A0084DDA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16775CC1734203A0084DDA4 /* Foundation.framework */; };
+		D16775CF1734203A0084DDA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16775CE1734203A0084DDA4 /* CoreGraphics.framework */; };
+		D16775D51734203A0084DDA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D16775D31734203A0084DDA4 /* InfoPlist.strings */; };
+		D16775D71734203A0084DDA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D16775D61734203A0084DDA4 /* main.m */; };
+		D16775DB1734203A0084DDA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D16775DA1734203A0084DDA4 /* AppDelegate.m */; };
+		D16775DD1734203A0084DDA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D16775DC1734203A0084DDA4 /* Default.png */; };
+		D16775DF1734203A0084DDA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D16775DE1734203A0084DDA4 /* Default@2x.png */; };
+		D16775E11734203A0084DDA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D16775E01734203A0084DDA4 /* Default-568h@2x.png */; };
+		D16775E41734203B0084DDA4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16775E21734203B0084DDA4 /* MainStoryboard.storyboard */; };
+		D16775E71734203B0084DDA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16775E61734203B0084DDA4 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D16775C71734203A0084DDA4 /* Conti Tablet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conti Tablet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16775CA1734203A0084DDA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D16775CC1734203A0084DDA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D16775CE1734203A0084DDA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D16775D21734203A0084DDA4 /* Conti Tablet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Conti Tablet-Info.plist"; sourceTree = "<group>"; };
+		D16775D41734203A0084DDA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D16775D61734203A0084DDA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D16775D81734203A0084DDA4 /* Conti Tablet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Conti Tablet-Prefix.pch"; sourceTree = "<group>"; };
+		D16775D91734203A0084DDA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D16775DA1734203A0084DDA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D16775DC1734203A0084DDA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D16775DE1734203A0084DDA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D16775E01734203A0084DDA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D16775E31734203B0084DDA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D16775E51734203B0084DDA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D16775E61734203B0084DDA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D16775C41734203A0084DDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16775CB1734203A0084DDA4 /* UIKit.framework in Frameworks */,
+				D16775CD1734203A0084DDA4 /* Foundation.framework in Frameworks */,
+				D16775CF1734203A0084DDA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D16775BE1734203A0084DDA4 = {
+			isa = PBXGroup;
+			children = (
+				D16775D01734203A0084DDA4 /* Conti Tablet */,
+				D16775C91734203A0084DDA4 /* Frameworks */,
+				D16775C81734203A0084DDA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D16775C81734203A0084DDA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D16775C71734203A0084DDA4 /* Conti Tablet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D16775C91734203A0084DDA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16775CA1734203A0084DDA4 /* UIKit.framework */,
+				D16775CC1734203A0084DDA4 /* Foundation.framework */,
+				D16775CE1734203A0084DDA4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D16775D01734203A0084DDA4 /* Conti Tablet */ = {
+			isa = PBXGroup;
+			children = (
+				D16775D91734203A0084DDA4 /* AppDelegate.h */,
+				D16775DA1734203A0084DDA4 /* AppDelegate.m */,
+				D16775E21734203B0084DDA4 /* MainStoryboard.storyboard */,
+				D16775E51734203B0084DDA4 /* ViewController.h */,
+				D16775E61734203B0084DDA4 /* ViewController.m */,
+				D16775D11734203A0084DDA4 /* Supporting Files */,
+			);
+			path = "Conti Tablet";
+			sourceTree = "<group>";
+		};
+		D16775D11734203A0084DDA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D16775D21734203A0084DDA4 /* Conti Tablet-Info.plist */,
+				D16775D31734203A0084DDA4 /* InfoPlist.strings */,
+				D16775D61734203A0084DDA4 /* main.m */,
+				D16775D81734203A0084DDA4 /* Conti Tablet-Prefix.pch */,
+				D16775DC1734203A0084DDA4 /* Default.png */,
+				D16775DE1734203A0084DDA4 /* Default@2x.png */,
+				D16775E01734203A0084DDA4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D16775C61734203A0084DDA4 /* Conti Tablet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16775EA1734203B0084DDA4 /* Build configuration list for PBXNativeTarget "Conti Tablet" */;
+			buildPhases = (
+				D16775C31734203A0084DDA4 /* Sources */,
+				D16775C41734203A0084DDA4 /* Frameworks */,
+				D16775C51734203A0084DDA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conti Tablet";
+			productName = "Conti Tablet";
+			productReference = D16775C71734203A0084DDA4 /* Conti Tablet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D16775BF1734203A0084DDA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SmartPlace;
+			};
+			buildConfigurationList = D16775C21734203A0084DDA4 /* Build configuration list for PBXProject "Conti Tablet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D16775BE1734203A0084DDA4;
+			productRefGroup = D16775C81734203A0084DDA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D16775C61734203A0084DDA4 /* Conti Tablet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D16775C51734203A0084DDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16775D51734203A0084DDA4 /* InfoPlist.strings in Resources */,
+				D16775DD1734203A0084DDA4 /* Default.png in Resources */,
+				D16775DF1734203A0084DDA4 /* Default@2x.png in Resources */,
+				D16775E11734203A0084DDA4 /* Default-568h@2x.png in Resources */,
+				D16775E41734203B0084DDA4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D16775C31734203A0084DDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16775D71734203A0084DDA4 /* main.m in Sources */,
+				D16775DB1734203A0084DDA4 /* AppDelegate.m in Sources */,
+				D16775E71734203B0084DDA4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D16775D31734203A0084DDA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16775D41734203A0084DDA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D16775E21734203B0084DDA4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D16775E31734203B0084DDA4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D16775E81734203B0084DDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D16775E91734203B0084DDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D16775EB1734203B0084DDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conti Tablet/Conti Tablet-Prefix.pch";
+				INFOPLIST_FILE = "Conti Tablet/Conti Tablet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D16775EC1734203B0084DDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conti Tablet/Conti Tablet-Prefix.pch";
+				INFOPLIST_FILE = "Conti Tablet/Conti Tablet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D16775C21734203A0084DDA4 /* Build configuration list for PBXProject "Conti Tablet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16775E81734203B0084DDA4 /* Debug */,
+				D16775E91734203B0084DDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16775EA1734203B0084DDA4 /* Build configuration list for PBXNativeTarget "Conti Tablet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16775EB1734203B0084DDA4 /* Debug */,
+				D16775EC1734203B0084DDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D16775BF1734203A0084DDA4 /* Project object */;
+}
